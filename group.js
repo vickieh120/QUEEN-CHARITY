@@ -137,7 +137,7 @@ const {
        var _0x236a49 = _0x10288a + "-" + _0x436585.toString().padStart(2, "0") + "-" + _0x511884.toString().padStart(2, "0");
        var _0x56eaaf = {
          externalAdReply: {
-           title: "QUEEN_Nikka",
+           title: "Queen_Maria",
            body: _0x5f4890.subject,
            renderLargerThumbnail: true,
            thumbnail: log0,
@@ -279,7 +279,7 @@ const {
      }
      try {
        await _0x160b96.bot.groupUpdateDescription(_0x160b96.chat, _0x4ef0da + "\n\n\t" + Config.caption);
-       _0x160b96.reply("*_✅Group description Updated Successfuly! by queen Nikka👸_*");
+       _0x160b96.reply("*_✅Group description Updated Successfuly! by Queen Maria👸_*");
      } catch (_0x986809) {
        await _0x160b96.reply("*_Can't update description, Group Id not found!!_*");
      }
