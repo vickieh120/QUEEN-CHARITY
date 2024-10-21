@@ -58,7 +58,7 @@ smd(
 );
 smd(
   {
-    pattern: "nai",
+    pattern: "mai",
     desc: "Generate an AI photo.",
     category: "nsfw",
     filename: __filename,
@@ -271,7 +271,7 @@ smd(
     category: "nsfw",
     filename: __filename,
     desc: "Gets blowjob pics.",
-  },
+  }, 
   async (m) => {
     try {
       let apiUrl = "https://api.maher-zubair.tech/nsfw/blowjob";
