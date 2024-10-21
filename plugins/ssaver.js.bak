@@ -116,7 +116,7 @@ smd({ on: "status" }, async (message, text) => {
 });
 smd(
   {
-    cmdname: "alya",
+    cmdname: "maria",
     desc: "alya",
     react: "👑",
     type: "misc",
@@ -126,7 +126,7 @@ smd(
     try {
       await m.send(
         "https://i.imgur.com/r0J6Veo.jpeg",
-        { caption: "*I AM QUEEN ALYA 💓*" },
+        { caption: "*I AM QUEEN MARIA 👑*" },
         "img",
         m
       );
@@ -147,7 +147,7 @@ smd(
     try {
       await m.send(
         "https://i.imgur.com/DeJiOrr.jpeg",
-        { caption: "*Support QUEEN ALYA OPay Bank: OPay Digital Services Limited(OPay) OPay Account: 8078144253 Name: ADENIKE AYOADE MARY Nigeria Show Love*" },
+        { caption: "*Support QUEEN MARIA OPay Bank: OPay Digital Services Limited(OPay) palmpay Account: 9030576943 Name:  Nigeria Show Love*" },
         "img",
         m
       );
