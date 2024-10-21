@@ -20,7 +20,7 @@ let {
     filename: __filename,
   },
   async (message) => {
-    const channelMessage = `𝗤𝗨𝗘𝗘𝗡 𝗡𝗜𝗞𝗞𝗔 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝙎𝙐𝙋𝙋𝙊𝙍𝙏\n\n _ʜᴇʏ ʜᴇʀᴇ's ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ, ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs ᴛᴏ ᴋᴇᴇᴘ ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ᴀʟɪᴠᴇ_\n *ʟɪɴᴋ:* https://whatsapp.com/channel/0029VaqgxNt5q08c9XMItG3P\n\n ${Config.botname} *©Haki*`;
+    const channelMessage = `𝗤𝗨𝗘𝗘𝗡 *𝗠𝗔𝗥𝗜𝗔* 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝙎𝙐𝙋𝙋𝙊𝙍𝙏\n\n _ʜᴇʏ ʜᴇʀᴇ's ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ, ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs ᴛᴏ ᴋᴇᴇᴘ ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ᴀʟɪᴠᴇ_\n *ʟɪɴᴋ:* https://whatsapp.com/channel/0029VahOucpCcW4s1Zk3O61A\n\n ${Config.botname} *©Abby*`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -39,7 +39,7 @@ smd(
     filename: __filename,
   },
   async (message) => {
-    const SupportMsg = `ERRORS WITH REPO COMMAND THIS IS NEW REPO \n\n *REPO:*https://github.com/hakisolos/QUEEN-NIKKA\n\n ${Config.botname} *WORKS*`;
+    const SupportMsg = `ERRORS WITH REPO COMMAND THIS IS NEW REPO \n\n *REPO:*https://github.com/abbybots141/Queen_Maria\n\n ${Config.botname} *WORKS*`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -281,7 +281,7 @@ smd(
          edit: _0x2d7cf6
        }, "asta", _0x4e7c63);
      } catch (_0x28ce7e) {}
-     let _0x50f17a = " * QUEEN-NIKKA - ＢＯＴ ＦＥＡＴＵＲＥ*\n\n\n  ◦ _Total Features 👉 " + _0x4cf8ed + "_\n  \n*◦ LIST DOWN THE FEATURES*\n\n      _Commands 👉 " + Object.values(_0x4de967.commands).filter(_0x54d4bf => _0x54d4bf.pattern).length + "_\n      _Msg Listener 👉 " + Object.values(_0x4de967.commands).filter(_0x2376a3 => _0x2376a3.on).length + "_\n      _Call Listener 👉 " + Object.values(_0x4de967.commands).filter(_0x54a19b => _0x54a19b.call).length + "_\n      _Group Listener 👉 " + Object.values(_0x4de967.commands).filter(_0x35381c => _0x35381c.group).length + "_\n  \n\n" + Config.caption;
+     let _0x50f17a = " * Q U E E N  M A R I A - ＢＯＴ ＦＥＡＴＵＲＥ*\n\n\n  ◦ _Total Features 👑 " + _0x4cf8ed + "_\n  \n*◦ LIST DOWN THE FEATURES*\n\n      _Commands 👑 " + Object.values(_0x4de967.commands).filter(_0x54d4bf => _0x54d4bf.pattern).length + "_\n      _Msg Listener 👑 " + Object.values(_0x4de967.commands).filter(_0x2376a3 => _0x2376a3.on).length + "_\n      _Call Listener 👑 " + Object.values(_0x4de967.commands).filter(_0x54a19b => _0x54a19b.call).length + "_\n      _Group Listener 👑 " + Object.values(_0x4de967.commands).filter(_0x35381c => _0x35381c.group).length + "_\n  \n\n" + Config.caption;
      await _0x4e7c63.bot.relayMessage(_0x4e7c63.chat, {
        requestPaymentMessage: {
          currencyCodeIso4217: "NG",
@@ -538,7 +538,7 @@ smd(
      }
      const _0xb59e7d = await tempmail.mails(_0x1ca6eb.login, _0x1ca6eb.domain);
      if (!_0xb59e7d || !_0xb59e7d[0] || _0xb59e7d.length === 0) {
-       return await _0x39080b.reply("*EMPTY  👉 No mails received yet!* \n*Use _" + prefix + "delmail_ to delete mail!*");
+       return await _0x39080b.reply("*EMPTY  👑 No mails received yet!* \n*Use _" + prefix + "delmail_ to delete mail!*");
      }
      var _0x392c45 = false;
      try {
@@ -550,7 +550,7 @@ smd(
          emailContent: _0x587f7f
        });
        if (_0x587f7f) {
-         const _0xa4d211 = "\n  *From* 👉 " + _0x2b6dd0.from + "\n  *Date* ➪  " + _0x2b6dd0.date + "\n  *EMAIL ID* 👉  [" + _0x2b6dd0.id + "]\n  *Subject* 👉  " + _0x2b6dd0.subject + "\n  *Content* 👉  " + _0x587f7f;
+         const _0xa4d211 = "\n  *From* 👑 " + _0x2b6dd0.from + "\n  *Date* ➪  " + _0x2b6dd0.date + "\n  *EMAIL ID* 👑  [" + _0x2b6dd0.id + "]\n  *Subject* 👑  " + _0x2b6dd0.subject + "\n  *Content* 👑  " + _0x587f7f;
          await _0x39080b.reply(_0xa4d211, {
            contextInfo: {
              ...(await _0x39080b.bot.contextInfo("*EMAIL ➪ " + _0x2b6dd0.id + "*", _0x39080b.senderName, _0x392c45))
