@@ -45,7 +45,7 @@ const {
  });
  smd({
    cmdname: "newgc",
-   info: "Create New Whatsapp Group",
+   info: "Create New Group",
    type: "whatsapp",
    filename: __filename,
    use: "<group link.>"
@@ -92,7 +92,7 @@ const {
        var _0x2fe2c7 = "" + _0x2608ab + _0x3a49e9;
        var _0x539d8f = {
          externalAdReply: {
-           title: "QUEEN_NIKKA",
+           title: "QUEEN_MARIA",
            body: "" + _0x37b490,
            renderLargerThumbnail: true,
            thumbnail: log0,
@@ -1250,7 +1250,7 @@ cmd({
     // Adding tagged members
     for (let participant of participants) {
       if (!participant.id.startsWith("2348039607375")) {
-        messageContent += `🍀 @${participant.id.split("@")[0]}\n`;
+        messageContent += `☘️ @${participant.id.split("@")[0]}\n`;
       }
     }
 
