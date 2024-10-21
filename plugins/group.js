@@ -45,7 +45,7 @@ const {
  });
  smd({
    cmdname: "newgc",
-   info: "Create New Group",
+   info: "Create New Whatsapp Group",
    type: "whatsapp",
    filename: __filename,
    use: "<group link.>"
