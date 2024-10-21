@@ -11,18 +11,18 @@ smd({
   filename: __filename
 }, async (message) => {
   try {
-    const response = await axios.get("https://api.github.com/repos/hakisolos/Queen_Nikka");
+    const response = await axios.get("https://api.github.com/repos/abbybots141/Queen_Maria");
     const repoData = response.data;
 
-    let replyMessage = `**🍀WhatsApp Bot Repository Info**\n\n`;
-    replyMessage += `**🍀Repository Name:** ${repoData.name}\n`;
-    replyMessage += `**🍀Description:** ${repoData.description || 'No description available'}\n`;
-    replyMessage += `**🍀Stars:** ${repoData.stargazers_count}\n`;
-    replyMessage += `**🍀Forks:** ${repoData.forks_count}\n`;
-    replyMessage += `**🍀Watchers:** ${repoData.watchers_count}\n`;
-    replyMessage += `**🍀Open Issues:** ${repoData.open_issues_count}\n`;
-    replyMessage += `**🍀License:** ${repoData.license ? repoData.license.name : 'No License'}\n`;
-    replyMessage += `**🍀Repository URL:** [Click here]👉(https://github.com/hakisolos/Queen_Nikka)\n`;
+    let replyMessage = `**⚡WhatsApp Bot Repository Info**\n\n`;
+    replyMessage += `**⚡Repository Name:** ${repoData.name}\n`;
+    replyMessage += `**⚡Description:** ${repoData.description || 'No description available'}\n`;
+    replyMessage += `**⚡Stars:** ${repoData.stargazers_count}\n`;
+    replyMessage += `**⚡Forks:** ${repoData.forks_count}\n`;
+    replyMessage += `**⚡Watchers:** ${repoData.watchers_count}\n`;
+    replyMessage += `**⚡Open Issues:** ${repoData.open_issues_count}\n`;
+    replyMessage += `**⚡License:** ${repoData.license ? repoData.license.name : 'No License'}\n`;
+    replyMessage += `**⚡Repository URL:** [Click here]👉(https://github.com/abbybots141/Queen_Maria)\n`;
 
     await message.send(replyMessage);
   } catch (error) {
