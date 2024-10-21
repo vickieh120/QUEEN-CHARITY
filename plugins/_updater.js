@@ -10,7 +10,7 @@ try {
       await git.fetch();
       const commits = await git.log(["main..origin/main"]);
       if (commits.total === 0) {
-        return `${Config.botname} IS ON IT'S LATEST VERSION`;
+        return `${Config.botname} IS ON IT'S LATEST VERSION SO NO UPDATES FOR NOW`;
       } else {
         console.log("Update Detected, trying to update your bot!");
         const app = await heroku.get(`/apps/${process.env.HEROKU_APP_NAME}`);
