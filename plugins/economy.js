@@ -71,13 +71,13 @@ async(message,match) => {
 
    let value = match.trim();
    let k = parseInt(value)
-   const balance  = await eco.balance(user, "QUEEN_NIKKA")
+   const balance  = await eco.balance(user, "QUEEN_MARIA")
    switch (value) {
        case '1000':
        case '1':
        if (k > balance.wallet ) return message.reply(`*_You need to pay 🪙100 to increase bank capacity ~ 1000 sp_*`);
-         const deduct1 = await eco.deduct(user, "QUEEN_NIKKA", 100);
-         const add1 = eco.giveCapacity(user,"QUEEN_NIKKA", 1000);
+         const deduct1 = await eco.deduct(user, "QUEEN_MARIA", 100);
+         const add1 = eco.giveCapacity(user,"QUEEN_MARIA", 1000);
          return await message.reply(`*1000 🪙diamond storage has been added in ${message.senderName} bank*`)
 
 
@@ -85,8 +85,8 @@ async(message,match) => {
        case '100000':
        case '2':
        if (k < balance.wallet) return message.reply(`*You need to pay 🪙1000 to increase bank capacity ~ 100000 sp*`);
-         const deduct2 = await eco.deduct(user,"QUEEN_ALYA", 1000);
-         const add2 = eco.giveCapacity(user, "QUEEN_ALYA", 100000);
+         const deduct2 = await eco.deduct(user,"QUEEN_MARIA", 1000);
+         const add2 = eco.giveCapacity(user, "QUEEN_MARIA", 100000);
          return await message.reply(`*100000 🪙diamond storage has been added in ${message.pushName} bank*`)
 
 
@@ -95,8 +95,8 @@ async(message,match) => {
        case '10000000':
        case '3':
        if (k < balance.wallet) return message.reply(`You need to pay 🪙10000 to increase bank capacity ~ 1000 sp`);
-          const deduct3 = await eco.deduct(user, "QUEEN_NIKKA", 10000);
-          const add3 = eco.giveCapacity(user, "QUEEN_NIKKA", 10000000);
+          const deduct3 = await eco.deduct(user, "QUEEN_MARIA", 10000);
+          const add3 = eco.giveCapacity(user, "QUEEN_MARIA", 10000000);
           return await message.reply(`*10000000 🪙diamond storage has been added in ${message.pushName}\'s bank*`)
 
 
@@ -130,8 +130,8 @@ await message.reply('*What are you trying to do📉*.')
        const deposit = await eco.deposit(message.sender, "Asta", d);
        const balance = await eco.balance(message.sender, "Asta")
        if(deposit.noten) return message.reply('You can\'t deposit what you don\'t have💰.'); //if user states more than whats in his wallet
-       return await message.reply(`⛩️ Sender: ${message.pushName}\n🍀Successfully 💰Deposited 🪙${deposit.amount} to your bank.Upgrade your bank capacity to add more money📈.`)
-   //return await Aviator.bot.sendButtonText(message.chat,  `⛩️ Sender: ${message.pushName}\n🍀Successfully 💰Deposited 🪙${deposit.amount} to your bank.Upgrade your bank capacity to add more money📈.`, `${Config.ownername.split(' ')[0]}-Economy Version: 0.0.6`, message);
+       return await message.reply(`⛩️ Sender: ${message.pushName}\n⚡Successfully 💰Deposited 🪙${deposit.amount} to your bank.Upgrade your bank capacity to add more money📈.`)
+   //return await Aviator.bot.sendButtonText(message.chat,  `⛩️ Sender: ${message.pushName}\n⚡Successfully 💰Deposited 🪙${deposit.amount} to your bank.Upgrade your bank capacity to add more money📈.`, `${Config.ownername.split(' ')[0]}-Economy Version: 0.0.6`, message);
        }catch(e){message.error(`${e}\n\ncommand: deposit`,e)}
    }
 )
@@ -247,8 +247,8 @@ async(message,match) => {
        let mongoschemas = zerogroup.economy || "false";
        if (mongoschemas == "false") return message.reply("*🚦Economy* is not active in current group.");
        const balance = await eco.balance(message.sender, "Asta"); //Returns wallet, bank, and bankCapacity. Also creates a USer if it doesn't exist.
-       return await message.reply(`🍀User: ${message.pushName}\n\n_🪙${balance.bank}/${balance.bankCapacity}_`)
-   //return await Aviator.bot.sendButtonText(message.chat, `🍀User: ${message.pushName}\n\n_🪙${balance.bank}/${balance.bankCapacity}_`, `${Config.ownername.split(' ')[0]}-Economy \n Version: 0.0.6`, message);
+       return await message.reply(`⚡User: ${message.pushName}\n\n_🪙${balance.bank}/${balance.bankCapacity}_`)
+   //return await Aviator.bot.sendButtonText(message.chat, `⚡User: ${message.pushName}\n\n_🪙${balance.bank}/${balance.bankCapacity}_`, `${Config.ownername.split(' ')[0]}-Economy \n Version: 0.0.6`, message);
        }catch(e){message.error(`${e}\n\ncommand: bank`,e)}
    }
 )
