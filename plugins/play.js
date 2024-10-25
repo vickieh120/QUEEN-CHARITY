@@ -7,19 +7,22 @@ const {
   getBuffer,
   smdBuffer,
   prefix,
-  Config
+  Config,
 } = require("../lib");
-const {
-  search,
-  download
-} = require("aptoide-scraper");
+const { search, download } = require("aptoide-scraper");
+const googleTTS = require("google-tts-api");
+const ytdl = require("alya");
 const yts = require("secktor-pack");
-const axios = require('axios'); // Ensure axios is required
-const fs = require('fs'); // Required for saving temporary audio files
-const path = require('path'); // To manage file paths
+const fs = require("fs-extra");
+const axios = require("axios");
+const fetch = require("node-fetch");
+const path = require("path");
+var videotime = 2000;
+const { cmd } = require("../lib/plugins");
 
 smd({
   'pattern': "play",
+  'react': "🎵",
   'alias': ["music"],
   'desc': "Downloads audio from YouTube.",
   'category': "downloader",
@@ -30,17 +33,21 @@ smd({
     if (!_0x13be17) {
       return await _0x213b75.reply("*_Give Me a Search Query_*");
     }
+
+    // Search for the video
     let _0x14c1a1 = await yts(_0x13be17);
     let _0x4f86cb = _0x14c1a1.all[0];
     if (!_0x4f86cb) {
       return await _0x213b75.reply("*_No results found for your search_*");
     }
+
+    // Send thumbnail and video details
     let _0x4342ba = await smdBuffer(_0x4f86cb.thumbnail);
     await _0x213b75.bot.sendMessage(_0x213b75.jid, {
       'image': _0x4342ba,
-      'caption': "\n*ϙᴜᴇᴇɴ_ᴍᴀʀɪᴀ  • ᴍᴜꜱɪᴄ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*\n\n*☘️Title :* " + _0x4f86cb.title + "\n*☘️Url :* " + _0x4f86cb.url + "\n*☘️Description :* " + _0x4f86cb.timestamp + "\n*☘️Views :* " + _0x4f86cb.views + "\n*☘️Uploaded :* " + _0x4f86cb.ago + "\n*☘️Author :* " + _0x4f86cb.author.name + "\n\n== |☘️| powered by Abby |☘️| ==\n"
+      'caption': "\n*ϙᴜᴇᴇɴ_ᴍᴀʀɪᴀ  • ᴍᴜꜱɪᴄ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*\n\n*Title :* " + _0x4f86cb.title + "\n*Url :* " + _0x4f86cb.url + "\n*Description :* " + _0x4f86cb.timestamp + "\n*Views :* " + _0x4f86cb.views + "\n*Uploaded :* " + _0x4f86cb.ago + "\n*Author :* " + _0x4f86cb.author.name + "\n\n== |☘️| powered by Abby |☘️| ==\n"
     });
-    
+
     // Use the new API to get download links
     const downloadApiUrl = "https://widipe.com/download/ytdl?url=" + encodeURIComponent(_0x4f86cb.url);
     
@@ -280,7 +287,7 @@ smd({
     let _0x4342ba = await smdBuffer(_0x4f86cb.thumbnail);
     await _0x213b75.bot.sendMessage(_0x213b75.jid, {
       'image': _0x4342ba,
-      'caption': "\n*ϙᴜᴇᴇɴ_ᴍᴀʀɪᴀ  • ᴍᴜꜱɪᴄ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*\n\n*Title :* " + _0x4f86cb.title + "\n*Url :* " + _0x4f86cb.url + "\n*Description :* " + _0x4f86cb.timestamp + "\n*Views :* " + _0x4f86cb.views + "\n*Uploaded :* " + _0x4f86cb.ago + "\n*Author :* " + _0x4f86cb.author.name + "\n\n_ϙᴜᴇᴇɴ_ᴍᴀʀɪᴀ is preparing the video..._\n"
+      'caption': "\n*ϙᴜᴇᴇɴ_ᴍᴀʀɪᴀ  • ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*\n\n*Title :* " + _0x4f86cb.title + "\n*Url :* " + _0x4f86cb.url + "\n*Description :* " + _0x4f86cb.timestamp + "\n*Views :* " + _0x4f86cb.views + "\n*Uploaded :* " + _0x4f86cb.ago + "\n*Author :* " + _0x4f86cb.author.name + "\n\n_ϙᴜᴇᴇɴ_ᴍᴀʀɪᴀ is preparing the video..._\n"
     });
 
     // Use the new API to get download links
