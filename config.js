@@ -13,13 +13,13 @@ global.allowJids = process.env.ALLOW_JID || "true";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
-global.github = process.env.GITHUB || "https://github.com/abbybots141/Queen_Maria";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VahOucpCcW4s1Zk3O61A";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VahOucpCcW4s1Zk3O61A";
+global.github = process.env.GITHUB || "https://github.com/caseyweb/QUEEN-CHARITY";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://files.catbox.moe/zw89uk.jpg";
-global.devs = "2348121373516";
-global.sudo = process.env.SUDO || "2347032411938";
-global.owner = process.env.OWNER_NUMBER || "2347032411938";
+global.devs = "254112192119";
+global.sudo = process.env.SUDO || "254112192119";
+global.owner = process.env.OWNER_NUMBER || "254112192119";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "true";
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ",",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "`QUEEN_MARIA™`",
+  caption: process.env.CAPTION || "`QUEEN_CHARITY™`",
   author: process.env.PACK_AUTHER || "ABBY",
   packname: process.env.PACK_NAME || "LØRD",
-  botname: process.env.BOT_NAME || "QUEEN_MARIA",
-  ownername: process.env.OWNER_NAME || "ABBY",
+  botname: process.env.BOT_NAME || "`QUEEN_CHARITY`",
+  ownername: process.env.OWNER_NAME || "CASEYRHODES",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
