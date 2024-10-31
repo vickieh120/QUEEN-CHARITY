@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/abbybots141/Queen_Maria  /root/abbybots141
-WORKDIR /root/abbybots141/
+RUN git clone https://github.com/caseyweb/QUEEN-CHARITY  /root/caseyweb
+WORKDIR /root/caseyweb/
 
 
 COPY package.json .
