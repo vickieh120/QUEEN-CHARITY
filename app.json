@@ -1,15 +1,15 @@
 {
-    "name": "Queen_Maria",
-    "description": "Simple WhatsApp Bot",
+    "name": "Queen_Charity",
+    "description": "Simple WhatsApp Bot developed by CASEYRHODES",
     "logo": "https://files.catbox.moe/zw89uk.jpg",
-    "keywords": ["ABBY", "MARIA", "QUEEN_MARIA"],
+    "keywords": ["CASEYRHODES", "CHARITY", "QUEEN_CHARITY"],
     "success_url": "/",
     "stack": "container",
   
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",
-        "value": "Queen_Maria",
+        "value": "Queen_Charity",
         "required": true
       },
   
@@ -40,7 +40,7 @@
       "BOT_NAME": {
         "description": " NAME FOR BOT",
         "required": false,
-        "value": "QUEEN_MARIA"
+        "value": "QUEEN_CHARITY"
       },
       "TZ": {
         "description": "Put TIME_ZONE according to your location",
@@ -103,7 +103,7 @@
       },
       "OWNER_NUMBER": {
         "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-        "value": "2348100835767"
+        "value": "254112192119"
       },
       "SESSION_ID": {
         "description": "put your SESSION_ID here.",
@@ -115,12 +115,12 @@
       },
       "PACK_NAME": {
         "description": "Put Sticker Pack_Name.",
-        "value": "Queen_Maria",
+        "value": "Queen_Charity",
         "required": false
       },
       "PACK_AUTHER": {
         "description": "Put Sticker Author_Name.",
-        "value": "M A R I A",
+        "value": "C H A R I T Y",
         "required": false
       }
     },
