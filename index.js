@@ -3,7 +3,7 @@ const {
   VERSION
 } = require(__dirname + "/config");
 const start = async () => {
-  Debug.info("Starting Queen_Maria " + VERSION);
+  Debug.info("Starting QUEEN-CHARITY " + VERSION);
   try {
     await bot.init();
     await bot.DATABASE.sync();
