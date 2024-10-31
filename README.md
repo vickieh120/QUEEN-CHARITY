@@ -1,14 +1,14 @@
- # QUEEN_MARIA
+ # QUEEN-CHARITY
    <a><img src=https://files.catbox.moe/evkqex.mp4 src='https://files.catbox.moe/evkqex.mp4'/></a>
 <p align="center">
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝ QUEEN_+MARIA+★⃝•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+ABBY+TECH;RELEASED+DATE+15%2F10%2F2024;PLEASE+SUBSCRIBE+TO+OUR;WHATSAPP CHANNEL;https://whatsapp.com/;channel/0029VahOucpCcW4;s1Zk3O61A+." alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝ QUEEN-+CHARITY+★⃝•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+CASEYWEB;RELEASED+DATE+05%2F11%2F2024" alt="Typing SVG" /></a>
  
  ## Deployment Methods
 
 ### 1. FORK THIS REPO
 
-<a href='https://github.com/abbybots141/Queen_Maria/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
+<a href='https://github.com/caseyweb/QUEEN-CHARITY/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
 
 ### 2. GET SESSION ID HERE
  
@@ -30,7 +30,7 @@
     <a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Create-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 2. Now deploy.
     <br>
-    <a href='https://dashboard.heroku.com/new?template=https://github.com/abbybots141/Queen_Maria' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+    <a href='https://dashboard.heroku.com/new?template=https://github.com/caseyweb/QUEEN-CHARITY' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 ### DEPLOY ON REPLIT
 1. Deploy.
     <br>
@@ -41,7 +41,7 @@
 
   
   #### ```ABBY PROFILE VIEWS 🧚```
-![Visitor Count](https://profile-counter.glitch.me/abbybots141/count.svg)
+![Visitor Count](https://profile-counter.glitch.me/caseyweb/count.svg)
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
