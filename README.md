@@ -1,5 +1,12 @@
  # QUEEN-CHARITY
-   <a><img src=https://files.catbox.moe/evkqex.mp4 src='https://files.catbox.moe/evkqex.mp4'/></a>
+   
+<p align="center">  
+  <a href="https://www.youtube.com/@Caseyrhodes01">   
+    <img src="https://telegra.ph/file/a2404cf4912a775f17164.jpg"width="500" height="500"/>
+</p>
+</br>
+</br>
+</br>
 <p align="center">
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝ QUEEN-+CHARITY+★⃝•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+CASEYWEB;RELEASED+DATE+05%2F11%2F2024" alt="Typing SVG" /></a>
