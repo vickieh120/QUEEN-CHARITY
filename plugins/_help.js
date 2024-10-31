@@ -34,7 +34,7 @@ smd(
 👑Oᴡɴᴇʀ - ${Config.ownername} 
 👑Nᴜᴍ - ${owner.split(",")[0]} 
 👑Mᴇᴍᴏ - ${formatp(os.totalmem() - os.freemem())} 
-      \n *qᴜᴇᴇɴ✿︎ᴍᴀʀɪᴀ*\n\n ${readmore} 
+      \n *queen-charity*\n\n ${readmore} 
 ╭──👑 *ALL MENU*  👑
 │☾︎👑☽︎ 𝕃ist
 │☾︎👑☽︎ ℂategory
