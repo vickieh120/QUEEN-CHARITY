@@ -27,18 +27,18 @@ smd(
     await new Promise((resolve) => setTimeout(resolve, 100)); // Small delay to simulate a task
 
     const latency = Date.now() - start;
-    const channelLink = "https://whatsapp.com/channel/0029VahOucpCcW4s1Zk3O61A"; // Replace with your actual channel link
+    const channelLink = "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E"; // Replace with your actual channel link
 
     // Final message with latency, speed, and channel link
     const finalMessage = `
-👸 *Queen Maria is Alive!*
+👸 *Queen Charity is Alive!*
 
 *Latency:* ${latency}ms
 *Speed:* Fast as always🚀
 
 *Channel Link:* ${channelLink}
 
-*=== |☘️| Powered by HAKI |☘️| ===*
+*=== |☘️| Powered by CASEYRHODES |☘️| ===*
     `;
 
     // Send the final message directly (no initial message)
@@ -66,7 +66,7 @@ smd(
 
     // Prepare the final message content
     const finalMessage = `
-👸 'Queen Maria MD'
+👸 'Queen CHARITY MD'
 
 *Owner:* ${owner}
 
@@ -76,7 +76,7 @@ smd(
 
 *WhatsApp Group:* ${whatsappGroupLink}
 
-*Made With Love by Haki❤️*
+*Made With Love by CASEYRHODES ❤️*
 
 *Bot Uptime:* ${uptime}
 
@@ -107,11 +107,11 @@ smd({
     
     const hobby = "*coding*";
     
-    const contact = "*https://wa.me/7032411938*";
+    const contact = "*https://wa.me/254112192119*";
     
-    const name = "*Abby 🗿*";
+    const name = "*CASEYRHODES 🌟*";
     
-    const footer = "*=== |☘️| Powered by ABBY |☘️| ===*";
+    const footer = "*=== |☘️| Powered by CASEYRHODES |☘️| ===*";
 
     const messages = `
       name: ${name}
