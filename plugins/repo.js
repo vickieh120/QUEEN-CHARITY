@@ -11,7 +11,7 @@ smd({
   filename: __filename
 }, async (message) => {
   try {
-    const response = await axios.get("https://api.github.com/repos/abbybots141/Queen_Maria");
+    const response = await axios.get("https://api.github.com/repos/caseyweb/QUEEN-CHARITY");
     const repoData = response.data;
 
     let replyMessage = `**⚡WhatsApp Bot Repository Info**\n\n`;
@@ -22,7 +22,7 @@ smd({
     replyMessage += `**⚡Watchers:** ${repoData.watchers_count}\n`;
     replyMessage += `**⚡Open Issues:** ${repoData.open_issues_count}\n`;
     replyMessage += `**⚡License:** ${repoData.license ? repoData.license.name : 'No License'}\n`;
-    replyMessage += `**⚡Repository URL:** [Click here]👉(https://github.com/abbybots141/Queen_Maria)\n`;
+    replyMessage += `**⚡Repository URL:** [Click here]👉(https://github.com/caseyweb/QUEEN-CHARITY)\n`;
 
     await message.send(replyMessage);
   } catch (error) {
