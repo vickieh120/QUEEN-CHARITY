@@ -2,7 +2,7 @@ const { smd, sleep } = require('../lib');
 
 smd({ cmdname: "hack", type: "fun", info: "hacking prank", filename: __filename }, async (citel) => {
   const messages = [
-    "ABBY Injecting Malware",
+    "CASEYRHODES Injecting Malware",
     " █ 10%",
     " █ █ 20%",
     " █ █ █ 30%",
