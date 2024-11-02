@@ -1,4 +1,4 @@
-const { smd } = require("../lib");
+hiconst { smd } = require("../lib");
 const { runtime } = require("../lib"); // Assuming you have a runtime function for uptime
 
 smd(
@@ -29,7 +29,7 @@ smd(
 *Uptime:* ${uptime}
 
 
-== |☘️|Powered By Abby|☘️| ==
+== |☘️|Powered By 𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗗𝗘𝗦|☘️| ==
     `;
 
     // Send the final message directly
