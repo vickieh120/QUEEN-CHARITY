@@ -30,7 +30,7 @@ smd(
 👑ʀᴜɴᴛɪᴍᴇ - ${runtime(process.uptime())} 
 👑ᴅᴀᴛᴇ - ${message.date} 
 👑ɴᴏᴡ ᴛɪᴍᴇ - ${message.time} 
-👑Fᴏᴜɴᴅᴇʀ- *Star King*
+👑Fᴏᴜɴᴅᴇʀ- *Caseyrhodes*
 👑Oᴡɴᴇʀ - ${Config.ownername} 
 👑Nᴜᴍ - ${owner.split(",")[0]} 
 👑Mᴇᴍᴏ - ${formatp(os.totalmem() - os.freemem())} 
@@ -465,9 +465,9 @@ astro_patch.smd(
     try {
       // Define subowners list
       const subowners = [
-        { name: "Hakisolos", waid: "2349112171078" },
-        { name: "King David", waid: "2349123721026" },
-        { name: "abby......v2", waid: "263710405675" }
+        { name: "CASEYRHODES", waid: "254101022551" },
+        { name: "King David", waid: "254785968570" },
+        { name: "KING RHODES", waid: "254112192119" }
       ];
 
       // Construct contact messages for each subowner
