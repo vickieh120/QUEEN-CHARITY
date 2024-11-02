@@ -70,7 +70,7 @@ const path = require ("path");
 *Followers:* ${followers}
 *Following:* ${following}
 
-\t*Queen_MARIA IG STALKER*
+\t*Queen_CHARITY IG STALKER*
 `;
 
       await m.bot.sendFromUrl(m.from, photo_profile, caption, m, {}, "image");
@@ -587,7 +587,7 @@ smd(
    desc: "text to speech.",
    category: "downloader",
    filename: __filename,
-   use: "<Hii,this is MARIA>"
+   use: "<Hii,this is CHARITY>"
  }, async (_0x55aba2, _0x56da6b) => {
    try {
      let _0x204f81 = _0x55aba2.reply_text ? _0x55aba2.reply_text : _0x56da6b;
@@ -1111,9 +1111,9 @@ smd({
   try {
     const azaMessage = `
 ￣￣￣￣￣￣￣￣￣￣￣￣￣|
-        *8132526626*
-         *PALMPAY*
-        *JIMOH ABIOLA FAREED*
+        *254112192119*
+         *M-PESA*
+        *PALVIN KIBET*
 |＿＿＿＿＿＿＿＿＿＿＿＿＿|
                      \•◡•)/
                        \\     / 
@@ -1159,10 +1159,10 @@ smd(
       const reference = `${query}`; // This will be used as the subtitle (chapter/verse)
       
       // Structuring the message with reduced space
-      const message = `╔════M═A═R═I═A════════☘️\n` +
+      const message = `╔════C═H═A═R═I═T═Y══════☘️\n` +
                       `║ *🛐Content:* ${verse.trim()}\n` +  // trim() removes any unnecessary whitespace
                       `║ *👉Reference:* ${reference}\n` +
-                      `║ *👉powered By Queen Maria\n` +
+                      `║ *👉powered By CASEYRHODES\n` +
                       `╚═════N═I═K═K═A════☘️`;
 
       await m.send(message);
