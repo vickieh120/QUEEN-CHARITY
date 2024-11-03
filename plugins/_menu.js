@@ -90,7 +90,7 @@ astro_patch.smd({
       });
     }
     
-    menuContent += footer + "\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ʟᴏᴠᴇ *" + Config.botname + "*!\n  ©𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗗𝗘𝗦\n" + readmore;
+    menuContent += footer + "\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ʟᴏᴠᴇ *" + Config.botname + "*!\n  ©𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒\n" + readmore;
 
     const response = {
       'caption': menuContent,
