@@ -57,11 +57,11 @@ smd(
     filename: __filename, // Filename reference
   },
   async (message) => {
-    const owner = "HAKI"; // Owner name
-    const footer = "=== |☘️| Powered by ABBY |☘️| === ";
-    const repoLink = "https://github.com/hakisolos/Queen_Maria"; // Repository link
-    const channelLink = "https://whatsapp.com/channel/0029VahOucpCcW4s1Zk3O61A"; // Channel link
-    const whatsappGroupLink = "https://chat.whatsapp.com/Gd4JxOlgO6t4CKWunv8Adz"; // WhatsApp Group link
+    const owner = "CASEYRHODES"; // Owner name
+    const footer = "=== |☘️| Powered by CASEYRHODES |☘️| === ";
+    const repoLink = "https://github.com/caseyweb/QUEEN-CHARITY"; // Repository link
+    const channelLink = "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E"; // Channel link
+    const whatsappGroupLink = "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E"; // WhatsApp Group link
     const uptime = runtime(process.uptime()); // Get bot uptime
 
     // Prepare the final message content
