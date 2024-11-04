@@ -30,11 +30,11 @@ smd(
 👑ʀᴜɴᴛɪᴍᴇ - ${runtime(process.uptime())} 
 👑ᴅᴀᴛᴇ - ${message.date} 
 👑ɴᴏᴡ ᴛɪᴍᴇ - ${message.time} 
-👑Fᴏᴜɴᴅᴇʀ- *Caseyrhodes*
+👑Fᴏᴜɴᴅᴇʀ- *Star King*
 👑Oᴡɴᴇʀ - ${Config.ownername} 
 👑Nᴜᴍ - ${owner.split(",")[0]} 
 👑Mᴇᴍᴏ - ${formatp(os.totalmem() - os.freemem())} 
-      \n *queen-charity*\n\n ${readmore} 
+      \n *qᴜᴇᴇɴ✿︎ᴍᴀʀɪᴀ*\n\n ${readmore} 
 ╭──👑 *ALL MENU*  👑
 │☾︎👑☽︎ 𝕃ist
 │☾︎👑☽︎ ℂategory
@@ -194,7 +194,7 @@ astro_patch.cmd(
   async (message) => {
     try {
       message.reply(
-        `*_Uptime of ${QUEEN-CHARITY}: ${runtime(process.uptime())}_*`
+        `*_Uptime of ${tlang().title}: ${runtime(process.uptime())}_*`
       );
     } catch (error) {
       await message.error(error + "\n\ncommand : uptime", error, false);
@@ -465,9 +465,9 @@ astro_patch.smd(
     try {
       // Define subowners list
       const subowners = [
-        { name: "CASEYRHODES", waid: "254101022551" },
-        { name: "King David", waid: "254785968570" },
-        { name: "KING RHODES", waid: "254112192119" }
+        { name: "KING RHODES", waid: "254101022551" },
+        { name: "PALVINWEB", waid: "25485968570" },
+        { name: "CASEYRHODES", waid: "254112192119" }
       ];
 
       // Construct contact messages for each subowner
