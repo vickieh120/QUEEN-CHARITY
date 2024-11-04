@@ -143,8 +143,8 @@ astro_patch.smd({
         'forwardingScore': 100, 
         'isForwarded': true,
         'externalAdReply': {
-          'title': 'EMMY_HENZ-V3',
-          'sourceUrl': 'https://whatsapp.com/channel/0029VangYOt96H4JhFarL10C'
+          'title': 'QUEEN_CHARITY',
+          'sourceUrl': 'https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E'
         }
       },
       'ephemeralExpiration': 3000
