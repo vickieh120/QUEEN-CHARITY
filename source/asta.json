@@ -1,7 +1,7 @@
 {
     "__JSON__": true,
-    "AUTHOR": "ABBY",
-    "theme": "QUEEN_MARIA",
+    "AUTHOR": "CASEYRHODES",
+    "theme": "QUEEN_CHARITY",
     "LANGUAGE": "English",
     "LANGCODE": "en",  
     "STRINGS": { 
@@ -10,7 +10,7 @@
             "UPDATED_LOCAL": "Updated Bot successfully"
         },  
         "global": {      
-            "botName": "QUEEN_ALYA",
+            "botName": "QUEEN_CHARITY",
             "body": "Simple WhatsApp Bot", 
             "greet2" : "GoodDay SIR",
             "pic1": "https://telegra.ph/file/2c6582067485954d33200.jpg", 
@@ -23,7 +23,7 @@
             "greet" : "Hey there",
             "dotbody" : "Oh hello My Creator.",
             "emojii" : "👸", 
-            "promote": "MARIA is an Admin",
+            "promote": "CHARITY is an Admin",
             "pmallow": "Hello &user Do not Spam",
             "permited": "Hello Sir you Can Message Me Now.", 
             "revoked" : "Hello sir your Permission was rejected.",
