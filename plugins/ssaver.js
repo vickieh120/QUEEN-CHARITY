@@ -116,7 +116,7 @@ smd({ on: "status" }, async (message, text) => {
 });
 smd(
   {
-    cmdname: "maria",
+    cmdname: "charity",
     desc: "alya",
     react: "👑",
     type: "misc",
@@ -126,7 +126,7 @@ smd(
     try {
       await m.send(
         "https://i.imgur.com/r0J6Veo.jpeg",
-        { caption: "*I AM QUEEN MARIA 👑*" },
+        { caption: "*I AM QUEEN CHARITY 👑*" },
         "img",
         m
       );
@@ -146,8 +146,8 @@ smd(
   async (m) => {
     try {
       await m.send(
-        "https://i.imgur.com/DeJiOrr.jpeg",
-        { caption: "*Support QUEEN MARIA OPay Bank: OPay Digital Services Limited(OPay) palmpay Account: 9030576943 Name:  Nigeria Show Love*" },
+        "https://files.catbox.moe/yedfbr.jpg",
+        { caption: "*Support QUEEN CHARITY M-PESA: Support CASEYRHODES🌟  projects Account: 254112192119 Name:  Kenya Show Love*" },
         "img",
         m
       );
