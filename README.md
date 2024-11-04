@@ -43,6 +43,27 @@
     <br>
     <a href='https://replit.com/github//caseyweb/QUEEN-CHARITY' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Deploy-red?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
+### `COMMANDS FOR TERMUX/UBUNTU`
+```bash
+apt update && apt upgrade -y
+pkg install proot-distro
+proot-distro install ubuntu
+proot-distro login ubuntu
+apt update && apt upgrade -y
+apt install -y webp git ffmpeg curl imagemagick
+apt -y remove nodejs
+curl -fsSl https://deb.nodesource.com/setup_lts.x | bash - && apt -y install nodejs
+git clone https://github.com/EMMYHENZ-TECH/EMMY-HENZ-V3
+cd EMMY-HENZ-V3
+npm install
+npm start
+```
+
+--------
+
+
+
+
 ## THIS SCRIPT IS NOT OPENLY ALLOWED TO USED IN ANY OF YOUR PROJECTS BE WARNED!!! 
 
 
