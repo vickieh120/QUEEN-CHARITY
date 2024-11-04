@@ -76,7 +76,13 @@ npm start
 
 ## Support ME
 
-SUPPORT CHANNEL: <a href="[https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E)"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+
+## ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ
+<a href="https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E" target="_blank">
+    <img alt="whatsapp Group" src="https://img.shields.io/badge/ Whatsapp Support Channel -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+</p>
+
 
 
 ### Please Give One Star ✨ & [follow me notify my updates 💗](https://github.com/caseyweb)
