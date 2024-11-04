@@ -147,7 +147,7 @@ smd(
     try {
       await m.send(
         "https://files.catbox.moe/yedfbr.jpg",
-        { caption: "*Support QUEEN CHARITY M-PESA: Support CASEYRHODES🌟  projects Account: 254112192119 Name:  Kenya Show Love*" },
+        { caption: "*Support QUEEN CHARITY M-PESA: Support CASEYRHODES🌟  projects Account: 254112192119 Name: PALVIN KIBET Kenya Show Love*" },
         "img",
         m
       );
