@@ -682,7 +682,7 @@ smd({
       }, {
         autobio: _0x1f0ea7
       });
-      var _0x347b23 = await getContent(_0x50364b, _0x1f0ea7 == "true" || _0x1f0ea7 == "on" ? "Auto Bio By QUEEN_MARIW, ⏰Time: @time 🚀@bot" : _0x1f0ea7);
+      var _0x347b23 = await getContent(_0x50364b, _0x1f0ea7 == "true" || _0x1f0ea7 == "on" ? "Auto Bio By QUEEN_CHARITY, ⏰Time: @time 🚀@bot" : _0x1f0ea7);
       await _0x50364b.bot.updateProfileStatus(_0x347b23);
       return await _0x50364b.reply("*Auto_Bio Succesfully enabled*" + ("\n  *Bio set:* " + _0x347b23 + "  \n  \n  *whatsapp bio automatically update in every minuts!*\n  "));
     }
@@ -703,7 +703,7 @@ smd({
       abioJob = cron.schedule("*/1.5 * * * *", async () => {
         try {
           var _0x4b4b3b = "`";
-          let _0x34c0a6 = bio.autobio == "true" || bio.autobio == "on" ? "Auto Bio By QUEEN_MARIA, ⏰Time: @time 🚀@bot" : bio.autobio;
+          let _0x34c0a6 = bio.autobio == "true" || bio.autobio == "on" ? "Auto Bio By QUEEN_CHARITY, ⏰Time: @time 🚀@bot" : bio.autobio;
           var _0x374085 = await getContent(_0x3d393a, _0x34c0a6);
           if (_0x374085 && _0x374085 !== "false") {
             await _0x3d393a.bot.updateProfileStatus(_0x374085);
@@ -892,7 +892,7 @@ events.cmd({
     }
     let _0x41fff7 = global.renters;
     if (!_0x41fff7 || !_0x41fff7[0]) {
-      return await _0x52616f.reply("*_No user has rent 'QUEEN_MARIA' yet!_*\n*_Can't disable cmds for shared users, If the bot is not shared!_*");
+      return await _0x52616f.reply("*_No user has rent 'QUEEN_CHARITY' yet!_*\n*_Can't disable cmds for shared users, If the bot is not shared!_*");
     }
     let _0x5b8a34 = _0x2d6ee3.split(" ")[0].toLowerCase().trim();
     let _0x197a22 = events.commands.find(_0x3f658d => _0x3f658d.pattern === _0x5b8a34) || events.commands.find(_0x21a89e => _0x21a89e.alias && _0x21a89e.alias.includes(_0x5b8a34));
