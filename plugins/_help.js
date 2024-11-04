@@ -194,7 +194,7 @@ astro_patch.cmd(
   async (message) => {
     try {
       message.reply(
-        `*_Uptime of ${tlang().title}: ${runtime(process.uptime())}_*`
+        `*_Uptime of ${QUEEN-CHARITY}: ${runtime(process.uptime())}_*`
       );
     } catch (error) {
       await message.error(error + "\n\ncommand : uptime", error, false);
