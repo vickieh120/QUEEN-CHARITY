@@ -134,7 +134,7 @@ astro_patch.smd({
     }
 
     menuContent += `${footer}\n\n${design.emoji} *${Config.botname}* - Your assistant\n`;
-    menuContent += `©2024 *EMMY HENZ*\n${readmore}`;
+    menuContent += `©2024 *CASEYRHODES TECH*\n${readmore}`;
 
     // Send the menu with a "forwarded" tag
     const menuOptions = {
