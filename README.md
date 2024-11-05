@@ -1,12 +1,9 @@
  # QUEEN-CHARITY
    
-<p align="center">  
-  <a href="https://www.youtube.com/@Caseyrhodes01">   
-    <img src="https://files.catbox.moe/52yhol.jpg"width="500" height="500"/>
-</p>
-</br>
-</br>
-</br>
+   <a>
+                                      <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Jersey+20+Charted&size=30&pause=1000&color=F71515&width=435&lines=BOT+100%25+LEGIT" alt="Typing SVG" /></a>   
+
+            
 <p align="center">
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝ QUEEN-+CHARITY+★⃝•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+CASEYWEB;RELEASED+DATE+05%2F11%2F2024" alt="Typing SVG" /></a>
