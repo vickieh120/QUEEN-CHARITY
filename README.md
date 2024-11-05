@@ -2,7 +2,7 @@
    
 <p align="center">  
   <a href="https://www.youtube.com/@Caseyrhodes01">   
-    <img src="https://telegra.ph/file/a2404cf4912a775f17164.jpg"width="500" height="500"/>
+    <img src="https://files.catbox.moe/52yhol.jpg"width="500" height="500"/>
 </p>
 </br>
 </br>
