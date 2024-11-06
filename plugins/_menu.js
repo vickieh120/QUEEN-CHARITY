@@ -137,7 +137,7 @@ astro_patch.smd({
     }
 
     menuContent += `\n${footer}\n\n${design.emoji} *${Config.botname}* - Your assistant\n`;
-    menuContent += `©2024 *JUPITERBOLD05*\n`;
+    menuContent += `©2024 *QUEEN_CHARITY*\n`;
     menuContent += `${readmore}`;
 
     // Send the menu with a "forwarded" tag
@@ -150,12 +150,16 @@ astro_patch.smd({
           'title': '𝐐𝐔𝐄𝐄𝐍_𝐂𝐇𝐀𝐑𝐈𝐓𝐘',
           'sourceUrl': 'https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E'
         }
+                  }
       },
       'ephemeralExpiration': 3000
     };
 
     // Send the menu
     await context.sendUi(context.chat, menuOptions, context);
+
+    // Play soft background audio after sending the menu
+    await sendAnimeBackgroundAudio(context, 'Emmy.mp3');
 
   } catch (error) {
     await context.error(`Error: ${error.message}`, error);
