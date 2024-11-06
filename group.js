@@ -279,7 +279,7 @@ const {
      }
      try {
        await _0x160b96.bot.groupUpdateDescription(_0x160b96.chat, _0x4ef0da + "\n\n\t" + Config.caption);
-       _0x160b96.reply("*_✅Group description Updated Successfuly! by Queen Maria👸_*");
+       _0x160b96.reply("*_✅Group description Updated Successfuly! by Queen Charity👸_*");
      } catch (_0x986809) {
        await _0x160b96.reply("*_Can't update description, Group Id not found!!_*");
      }
