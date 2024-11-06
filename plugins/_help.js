@@ -467,7 +467,7 @@ astro_patch.smd(
       const subowners = [
         { name: "KING RHODES", waid: "254101022551" },
         { name: "PALVINWEB", waid: "25485968570" },
-        { name: "CASEYRHODES", waid: "254112192119" }
+        { name: "𒀱ꪳ𓊈𒆜𓂀ᴸᴼᴿᴰℂ𝔸𝕊𝔼𝕐ℝℍ𝕆𝔻𝔼𝕊𓂀𒆜𓊉 𒀱", waid: "254112192119" }
       ];
 
       // Construct contact messages for each subowner
