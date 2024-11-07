@@ -72,7 +72,7 @@ npm start
 
 
   
-  #### ```CASEYWEB PROFILE VIEWS 🧚```
+  #### ```CASEYRHODES PROFILE VIEWS 🧚```
 ![Visitor Count](https://profile-counter.glitch.me/caseyweb/count.svg)
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
