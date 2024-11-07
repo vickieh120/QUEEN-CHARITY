@@ -55,7 +55,7 @@ function getNextMenuDesign() {
     {
       header: "【 *{botname}* 】\n",
       lineSeparator: "┃ ",
-      commandPrefix: "💫 ",
+      commandPrefix: "🍀 ",
       footer: "━━━━━━━━━━━━━",
       emoji: "🎌",
       greetingText: "Explore the enchanting commands below!",
