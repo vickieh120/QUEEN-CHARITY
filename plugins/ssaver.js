@@ -125,7 +125,7 @@ smd(
   async (m) => {
     try {
       await m.send(
-        "https://i.imgur.com/r0J6Veo.jpeg",
+        "https://files.catbox.moe/kwe3i5.jpg",
         { caption: "*I AM QUEEN CHARITY 👑*" },
         "img",
         m
@@ -146,8 +146,8 @@ smd(
   async (m) => {
     try {
       await m.send(
-         "https://files.catbox.moe/yedfbr.jpg",
-        { caption: "*Support QUEEN CHARITY M-PESA: Support CASEYRHODES projects Account: 254112192119 Name: Palvin rhodes Kenya Show Love*" },
+        "https://files.catbox.moe/6xuv7u.jpg",
+        { caption: "*Support QUEEN CHARITY kcb Bank: kcb Digital Services Limited(kcb) palmpay Account: 0112192119 Name:  Kenya Show Love*" },
         "img",
         m
       );
