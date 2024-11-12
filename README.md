@@ -23,7 +23,7 @@
 
 ### 2. GET SESSION ID HERE
  
-<a href="https://rhodespair-1303049c463e.herokuapp.com"><img src="https://img.shields.io/badge/QR CODE-green" alt="Click Here to Get QR-Code" width="90"></a>
+<a href="https://caseypair2-0555af62d9a2.herokuapp.com"><img src="https://img.shields.io/badge/QR CODE-green" alt="Click Here to Get QR-Code" width="90"></a>
 
 
 ### DEPLOY ON RENDER
